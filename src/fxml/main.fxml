@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="998.0" stylesheets="@../css/styling.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="998.0" stylesheets="@../css/styling.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
    <children>
       <VBox prefHeight="605.0" prefWidth="67.0" styleClass="side_pane">
          <children>
@@ -91,13 +91,13 @@
                   <Pane layoutX="77.0" layoutY="25.0" prefHeight="110.0" prefWidth="203.0" styleClass="overview_banner" />
                </children>
             </Pane>
-            <TableView layoutX="72.0" layoutY="305.0" prefHeight="283.0" prefWidth="797.0">
+            <TableView fx:id="table_students" layoutX="72.0" layoutY="305.0" prefHeight="283.0" prefWidth="797.0">
               <columns>
-                <TableColumn prefWidth="87.26979064941406" text="ID" />
-                <TableColumn prefWidth="171.73019409179688" text="FirstName" />
-                  <TableColumn prefWidth="162.60568237304688" text="LastName" />
-                  <TableColumn prefWidth="164.29766845703125" text="Class" />
-                  <TableColumn prefWidth="211.20233154296875" text="Type" />
+                <TableColumn fx:id="col_id" prefWidth="87.26979064941406" text="ID" />
+                <TableColumn fx:id="col_first" prefWidth="171.73019409179688" text="FirstName" />
+                  <TableColumn fx:id="col_lastt" prefWidth="162.60568237304688" text="LastName" />
+                  <TableColumn fx:id="col_class" prefWidth="164.29766845703125" text="Class" />
+                  <TableColumn fx:id="col_school" prefWidth="211.20233154296875" text="School" />
               </columns>
             </TableView>
             <JFXButton layoutX="87.0" layoutY="239.0" styleClass="add_button" text="Add Student" />
