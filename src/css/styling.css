@@ -13,3 +13,21 @@
 -fx-background-radius:  20;
 -fx-border-radius: 20;
 }
+
+.add_button{
+-fx-border-color: #2c6ebf;
+-fx-background-radius:  20;
+-fx-border-radius: 20;
+}
+
+.update_button{
+-fx-border-color: #bfb32c;
+-fx-background-radius:  20;
+-fx-border-radius: 20;
+}
+
+.delete_button{
+-fx-border-color: #bf382c;
+-fx-background-radius:  20;
+-fx-border-radius: 20;
+}
