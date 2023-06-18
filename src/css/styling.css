@@ -1,0 +1,15 @@
+.side_pane{
+    -fx-background-color:  #f6f9ff;
+}
+.main_pane{
+ -fx-background-color:  #f2f2f2;
+}
+.top_pane{
+-fx-background-color:  #ffffff;
+}
+
+.overview_banner{
+-fx-background-color:  #ffffff;
+-fx-background-radius:  20;
+-fx-border-radius: 20;
+}
