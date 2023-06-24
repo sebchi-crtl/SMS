@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="file://$PATH_TO_FX$" />
       <root url="jar://$USER_HOME$/Downloads/jfoenix-9.0.10.jar!/" />
+      <root url="file://$PATH_TO_FIX$" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>
-      <root url="file://$PATH_TO_FX$" />
+      <root url="file://$PATH_TO_FIX$" />
     </NATIVE>
     <SOURCES />
-    <jarDirectory url="file://$PATH_TO_FX$" recursive="false" />
+    <jarDirectory url="file://$PATH_TO_FIX$" recursive="false" />
   </library>
 </component>

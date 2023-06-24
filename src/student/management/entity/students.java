@@ -2,23 +2,23 @@ package student.management.entity;
 
 public class students {
 
-    int id;
+    int student_id;
     String firstName, lastName, std_class, school;
 
-    public students(int id, String firstName, String lastName, String std_class, String school) {
-        this.id = id;
+    public students(int student_id, String firstName, String lastName, String std_class, String school) {
+        this.student_id = student_id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.std_class = std_class;
         this.school = school;
     }
 
-    public int getId() {
-        return id;
+    public int getStudent_id() {
+        return student_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setStudent_id(int student_id) {
+        this.student_id = student_id;
     }
 
     public String getFirstName() {
