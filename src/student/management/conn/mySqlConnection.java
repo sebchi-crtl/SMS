@@ -42,7 +42,6 @@ public class mySqlConnection {
                         resultSet.getString("school")
                         ));
             }
-
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
